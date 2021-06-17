@@ -62,7 +62,7 @@ const ExpenseForm = (props) => {
     setEnteredDate('');
 
     props.onSaveNewData(newExpenseInExpenseForm);
-    
+
     // console.log(newExpenseInExpenseForm);
   }
 
@@ -84,6 +84,7 @@ const ExpenseForm = (props) => {
       </div>
       <div className='new-expense__actions'>
         <button type='submit'>Add Expense</button>
+        <button type="button" onClick={props.onCancel}>Cancel</button>
       </div>
     </form>
   );
