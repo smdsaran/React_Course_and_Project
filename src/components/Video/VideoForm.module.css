@@ -1,0 +1,50 @@
+.addVideoForm {
+  width: 100%;
+  height: 25vh;
+}
+
+.addVideoForm .control {
+  width: 95%;
+  height: 30%;
+  margin-bottom: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addVideoForm .control input {
+  width: 99%;
+  height: 95%;
+}
+
+.addVideoForm .actions {
+  width: 95%;
+  height: 20%;
+  position: relative;
+}
+
+.addVideoForm .actions .closebtn {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 5%;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.addVideoForm .actions button[type="submit"] {
+  background-color: green;
+  border: none;
+  color: white;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 2.5%;
+  border-radius: 2px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=VideoForm.module.css.map */

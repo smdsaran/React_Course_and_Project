@@ -1,0 +1,21 @@
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: menu;
+  width: 30%;
+}
+
+.item3 {
+  grid-area: main;
+  width: 70%;
+  background-color: greenyellow;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "menu menu main main";
+}
